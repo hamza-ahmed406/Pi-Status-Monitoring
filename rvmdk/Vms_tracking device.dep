@@ -1,0 +1,169 @@
+Dependencies for Project 'Vms', Target 'tracking device': (DO NOT MODIFY !)
+F (..\drivers\cfal96x64x16.c)(0x55A69F30)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\cfal96x64x16.o --omf_browse .\rvmdk\cfal96x64x16.crf --depend .\rvmdk\cfal96x64x16.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F36)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/ssi.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/rom.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2E)
+I (..\..\..\..\grlib/grlib.h)(0x55A69F32)
+I (..\drivers/cfal96x64x16.h)(0x55A69F30)
+F (.\startup_rvmdk.S)(0x578BE37F)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123--pd "__UVISION_VERSION SETA 517"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (.\main.c)(0x578BF1BD)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\main.o --omf_browse .\rvmdk\main.crf --depend .\rvmdk\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F36)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/rom.h)(0x55A69F2E)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DB55B0)
+I (..\..\..\..\driverlib/hibernate.h)(0x55A69F2E)
+I (..\drivers/buttons.h)(0x55A69F30)
+I (inc/tm4c123gh6pge.h)(0x55120EC2)
+I (inc/SysTick.h)(0x55120EC2)
+I (inc/lcd.h)(0x55120EC2)
+I (strfunc.h)(0x5789C956)
+I (uartConfiguration.h)(0x5789FA8A)
+I (GPS FONA.h)(0x5789E492)
+I (GSM_FONA808.h)(0x578B8B04)
+I (..\..\..\..\utils/scheduler.h)(0x55A69F3C)
+F (..\drivers\buttons.c)(0x55A69F30)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\buttons.o --omf_browse .\rvmdk\buttons.crf --depend .\rvmdk\buttons.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/rom_map.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2E)
+I (..\..\..\..\inc/hw_types.h)(0x55A69F36)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F36)
+I (..\drivers\buttons.h)(0x55A69F30)
+F (.\GPS FONA.c)(0x5789F48E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o ".\rvmdk\gps fona.o" --omf_browse ".\rvmdk\gps fona.crf" --depend ".\rvmdk\gps fona.d")
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB55A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB55A8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB55AE)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F36)
+I (..\..\..\..\driverlib/debug.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/fpu.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/interrupt.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/SysTick.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/timer.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/uart.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/rom.h)(0x55A69F2E)
+I (..\..\..\..\grlib/grlib.h)(0x55A69F32)
+I (..\drivers/cfal96x64x16.h)(0x55A69F30)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DB55B0)
+I (..\..\..\..\driverlib/hibernate.h)(0x55A69F2E)
+I (..\..\..\..\utils/ustdlib.h)(0x55A69F3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB55AE)
+I (..\..\..\..\inc/hw_hibernate.h)(0x55A69F36)
+I (..\drivers/buttons.h)(0x55A69F30)
+I (inc/tm4c123gh6pge.h)(0x55120EC2)
+I (inc/SysTick.h)(0x55120EC2)
+I (inc/lcd.h)(0x55120EC2)
+I (strfunc.h)(0x5789C956)
+I (uartConfiguration.h)(0x5789FA8A)
+I (GSM_FONA808.h)(0x578B8B04)
+I (GPS FONA.h)(0x5789E492)
+F (.\GSM_FONA808.c)(0x578BE0CA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\gsm_fona808.o --omf_browse .\rvmdk\gsm_fona808.crf --depend .\rvmdk\gsm_fona808.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB55A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB55A8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB55AE)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F36)
+I (..\..\..\..\driverlib/debug.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/fpu.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/interrupt.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/SysTick.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/timer.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/uart.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/rom.h)(0x55A69F2E)
+I (..\..\..\..\grlib/grlib.h)(0x55A69F32)
+I (..\drivers/cfal96x64x16.h)(0x55A69F30)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DB55B0)
+I (..\..\..\..\driverlib/hibernate.h)(0x55A69F2E)
+I (..\..\..\..\utils/ustdlib.h)(0x55A69F3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB55AE)
+I (..\..\..\..\inc/hw_hibernate.h)(0x55A69F36)
+I (..\drivers/buttons.h)(0x55A69F30)
+I (inc/tm4c123gh6pge.h)(0x55120EC2)
+I (inc/SysTick.h)(0x55120EC2)
+I (inc/lcd.h)(0x55120EC2)
+I (strfunc.h)(0x5789C956)
+I (uartConfiguration.h)(0x5789FA8A)
+I (GPS FONA.h)(0x5789E492)
+I (GSM_FONA808.h)(0x578B8B04)
+F (.\strfunc.c)(0x5789C956)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\strfunc.o --omf_browse .\rvmdk\strfunc.crf --depend .\rvmdk\strfunc.d)
+I (strfunc.h)(0x5789C956)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB55A8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB55AE)
+F (.\uartConfiguration.c)(0x5789FB48)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\uartconfiguration.o --omf_browse .\rvmdk\uartconfiguration.crf --depend .\rvmdk\uartconfiguration.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB55A8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB55AE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB55A8)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F36)
+I (..\..\..\..\driverlib/debug.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/fpu.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/interrupt.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/SysTick.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/timer.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/uart.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/rom.h)(0x55A69F2E)
+I (..\..\..\..\utils/ustdlib.h)(0x55A69F3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB55AE)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DB55B0)
+I (inc/tm4c123gh6pge.h)(0x55120EC2)
+I (inc/SysTick.h)(0x55120EC2)
+I (strfunc.h)(0x5789C956)
+I (uartConfiguration.h)(0x5789FA8A)
+I (inc\lcd.h)(0x55120EC2)
+F (.\SysTick.c)(0x5789D964)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\systick.o --omf_browse .\rvmdk\systick.crf --depend .\rvmdk\systick.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (inc/tm4c123gh6pge.h)(0x55120EC2)
+I (inc/SysTick.h)(0x55120EC2)
+F (.\lcd.c)(0x55120EC2)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\lcd.o --omf_browse .\rvmdk\lcd.crf --depend .\rvmdk\lcd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (inc/tm4c123gh6pge.h)(0x55120EC2)
+I (inc/lcd.h)(0x55120EC2)
+I (inc/SysTick.h)(0x55120EC2)
+F (.\scheduler.c)(0x57703590)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\scheduler.o --omf_browse .\rvmdk\scheduler.crf --depend .\rvmdk\scheduler.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB55A6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (..\..\..\..\inc/hw_types.h)(0x55A69F36)
+I (..\..\..\..\inc/hw_ints.h)(0x55A69F36)
+I (..\..\..\..\driverlib/systick.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/interrupt.h)(0x55A69F2E)
+I (..\..\..\..\driverlib/debug.h)(0x55A69F2E)
+I (..\..\..\..\utils/scheduler.h)(0x55A69F3C)
+F (..\..\..\..\utils\ustdlib.c)(0x55A69F3E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="517" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\ustdlib.o --omf_browse .\rvmdk\ustdlib.crf --depend .\rvmdk\ustdlib.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB55B0)
+I (..\..\..\..\driverlib/debug.h)(0x55A69F2E)
+I (..\..\..\..\utils/ustdlib.h)(0x55A69F3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB55AE)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55DB55B0)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x578A458B)()
+F (..\..\..\..\grlib\rvmdk\grlib.lib)(0x55A69F36)()
+F (.\readme.txt)(0x55A6B99A)()

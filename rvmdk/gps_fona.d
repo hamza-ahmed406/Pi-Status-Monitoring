@@ -1,0 +1,17 @@
+.\rvmdk\gps_fona.o: GPS_FONA.c
+.\rvmdk\gps_fona.o: GSM_FONA808.h
+.\rvmdk\gps_fona.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\rvmdk\gps_fona.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\rvmdk\gps_fona.o: GPS_FONA.h
+.\rvmdk\gps_fona.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\rvmdk\gps_fona.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\rvmdk\gps_fona.o: ..\..\..\..\inc/hw_memmap.h
+.\rvmdk\gps_fona.o: ..\..\..\..\utils/ustdlib.h
+.\rvmdk\gps_fona.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
+.\rvmdk\gps_fona.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\time.h
+.\rvmdk\gps_fona.o: ..\..\..\..\utils/uartstdio.h
+.\rvmdk\gps_fona.o: ..\..\..\..\driverlib/rom.h
+.\rvmdk\gps_fona.o: inc/tm4c123gh6pge.h
+.\rvmdk\gps_fona.o: inc/SysTick.h
+.\rvmdk\gps_fona.o: strfunc.h
+.\rvmdk\gps_fona.o: uartConfiguration.h

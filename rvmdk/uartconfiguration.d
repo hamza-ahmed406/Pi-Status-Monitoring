@@ -1,0 +1,16 @@
+.\rvmdk\uartconfiguration.o: uartConfiguration.c
+.\rvmdk\uartconfiguration.o: uartConfiguration.h
+.\rvmdk\uartconfiguration.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\rvmdk\uartconfiguration.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\inc/hw_memmap.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\driverlib/gpio.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\driverlib/pin_map.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\driverlib/interrupt.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\driverlib/sysctl.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\driverlib/uart.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\driverlib/rom.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\utils/ustdlib.h
+.\rvmdk\uartconfiguration.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
+.\rvmdk\uartconfiguration.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\time.h
+.\rvmdk\uartconfiguration.o: inc/tm4c123gh6pge.h
+.\rvmdk\uartconfiguration.o: ..\..\..\..\utils/uartstdio.h

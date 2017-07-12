@@ -1,0 +1,33 @@
+.\rvmdk\gps fona.o: GPS FONA.c
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\rvmdk\gps fona.o: ..\..\..\..\inc/hw_memmap.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/debug.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/fpu.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/gpio.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/pin_map.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/interrupt.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/sysctl.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/SysTick.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/timer.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/uart.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/rom.h
+.\rvmdk\gps fona.o: ..\..\..\..\grlib/grlib.h
+.\rvmdk\gps fona.o: ..\drivers/cfal96x64x16.h
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\time.h
+.\rvmdk\gps fona.o: ..\..\..\..\driverlib/hibernate.h
+.\rvmdk\gps fona.o: ..\..\..\..\utils/ustdlib.h
+.\rvmdk\gps fona.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\rvmdk\gps fona.o: ..\..\..\..\inc/hw_hibernate.h
+.\rvmdk\gps fona.o: ..\drivers/buttons.h
+.\rvmdk\gps fona.o: inc/tm4c123gh6pge.h
+.\rvmdk\gps fona.o: inc/SysTick.h
+.\rvmdk\gps fona.o: inc/lcd.h
+.\rvmdk\gps fona.o: strfunc.h
+.\rvmdk\gps fona.o: uartConfiguration.h
+.\rvmdk\gps fona.o: GSM_FONA808.h
+.\rvmdk\gps fona.o: GPS FONA.h

@@ -1,0 +1,61 @@
+Dependencies for Project 'uart_echo', Target 'tracking device': (DO NOT MODIFY !)
+F (..\drivers\cfal96x64x16.c)(0x55A69F2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\cfal96x64x16.o --omf_browse .\rvmdk\cfal96x64x16.crf --depend .\rvmdk\cfal96x64x16.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF2022)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF2022)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F34)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/ssi.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/rom.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2D)
+I (..\..\..\..\grlib/grlib.h)(0x55A69F31)
+I (..\drivers/cfal96x64x16.h)(0x55A69F2E)
+F (.\startup_rvmdk.S)(0x55E7E1BC)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123--pd "__UVISION_VERSION SETA 516"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (.\uart_echo.c)(0x55E84AB4)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\uart_echo.o --omf_browse .\rvmdk\uart_echo.crf --depend .\rvmdk\uart_echo.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF2022)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF2022)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF2022)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AF2022)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55AF2022)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F34)
+I (..\..\..\..\driverlib/debug.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/fpu.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/interrupt.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/SysTick.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/timer.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/uart.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/rom.h)(0x55A69F2D)
+I (..\..\..\..\grlib/grlib.h)(0x55A69F31)
+I (..\drivers/cfal96x64x16.h)(0x55A69F2E)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x55AF2022)
+I (..\..\..\..\driverlib/hibernate.h)(0x55A69F2D)
+I (..\..\..\..\utils/ustdlib.h)(0x55A69F3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AF2022)
+I (..\..\..\..\inc/hw_hibernate.h)(0x55A69F34)
+I (..\drivers/buttons.h)(0x55A69F2E)
+I (inc/tm4c123gh6pge.h)(0x55120EC2)
+I (inc/SysTick.h)(0x55120EC2)
+I (inc/lcd.h)(0x55120EC2)
+I (nmea.h)(0x55C1F02E)
+I (nmea.c)(0x55D36CFC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AF2022)
+I (uartConfiguration.c)(0x55D3550A)
+I (SysTick.c)(0x55C1EF6E)
+I (lcd.c)(0x55120EC2)
+I (satcom.c)(0x55C3A7C2)
+F (..\drivers\buttons.c)(0x55A69F2E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_BLIZZARD_RB1 -DTM4C123GH6PGE-o .\rvmdk\buttons.o --omf_browse .\rvmdk\buttons.crf --depend .\rvmdk\buttons.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF2022)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF2022)
+I (..\..\..\..\driverlib/gpio.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/pin_map.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/rom_map.h)(0x55A69F2D)
+I (..\..\..\..\driverlib/sysctl.h)(0x55A69F2D)
+I (..\..\..\..\inc/hw_types.h)(0x55A69F34)
+I (..\..\..\..\inc/hw_memmap.h)(0x55A69F34)
+I (..\drivers\buttons.h)(0x55A69F2E)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x55A69F2E)()
+F (..\..\..\..\grlib\rvmdk\grlib.lib)(0x55A69F34)()
+F (.\readme.txt)(0x55A6B99A)()

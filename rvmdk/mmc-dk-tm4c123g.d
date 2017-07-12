@@ -1,0 +1,11 @@
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\third_party\fatfs\port\mmc-dk-tm4c123g.c
+.\rvmdk\mmc-dk-tm4c123g.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\rvmdk\mmc-dk-tm4c123g.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\inc/hw_memmap.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\inc/hw_types.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\driverlib/gpio.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\driverlib/rom.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\driverlib/ssi.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\driverlib/sysctl.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\third_party\fatfs/src/diskio.h
+.\rvmdk\mmc-dk-tm4c123g.o: ..\..\..\..\third_party\fatfs/src/integer.h

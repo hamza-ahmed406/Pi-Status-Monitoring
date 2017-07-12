@@ -1,0 +1,10 @@
+.\rvmdk\scheduler.o: scheduler.c
+.\rvmdk\scheduler.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\rvmdk\scheduler.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\rvmdk\scheduler.o: ..\..\..\..\inc/hw_types.h
+.\rvmdk\scheduler.o: ..\..\..\..\inc/hw_ints.h
+.\rvmdk\scheduler.o: ..\..\..\..\driverlib/systick.h
+.\rvmdk\scheduler.o: ..\..\..\..\driverlib/sysctl.h
+.\rvmdk\scheduler.o: ..\..\..\..\driverlib/interrupt.h
+.\rvmdk\scheduler.o: ..\..\..\..\driverlib/debug.h
+.\rvmdk\scheduler.o: ..\..\..\..\utils/scheduler.h

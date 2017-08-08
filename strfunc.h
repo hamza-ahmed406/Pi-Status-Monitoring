@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-int stringLength(char[]);	
+int stringLength(char const*);	
 char* stringAppend(char* dst, const char* src);
 void stringncopy(char *dest, char *src, int Count);
 int mstrcmp(const char *s1, const char *s2);

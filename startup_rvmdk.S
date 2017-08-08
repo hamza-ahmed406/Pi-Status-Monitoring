@@ -83,6 +83,10 @@ __heap_limit
 		EXTERN	WatchdogIntHandler
 		EXTERN  piStatusGPIOInterrupt
 		EXTERN  PiStatusTimerInterrupt
+		EXTERN 	PPSGPIOInterrupt
+		EXTERN  PPSHighTimerInterrupt
+		EXTERN  PPSLowTimerInterrupt
+		EXTERN  GPSIntHandler
 			
 ;******************************************************************************
 ;
@@ -109,11 +113,11 @@ __Vectors
         DCD     SchedulerSysTickIntHandler  ; The SysTick handler
         DCD     IntDefaultHandler           ; GPIO Port A
         DCD     IntDefaultHandler           ; GPIO Port B
-        DCD     IntDefaultHandler           ; GPIO Port C
+        DCD     PPSGPIOInterrupt            ; GPIO Port C
         DCD     piStatusGPIOInterrupt       ; GPIO Port D
         DCD     IntDefaultHandler           ; GPIO Port E
         DCD     UART0IntHandler              ; UART0 Rx and Tx
-        DCD     IntDefaultHandler           ; UART1 Rx and Tx
+        DCD     GPSIntHandler               ; UART1 Rx and Tx
         DCD     IntDefaultHandler           ; SSI0 Rx and Tx
         DCD     IntDefaultHandler           ; I2C0 Master and Slave
         DCD     IntDefaultHandler           ; PWM Fault
@@ -126,9 +130,9 @@ __Vectors
         DCD     IntDefaultHandler           ; ADC Sequence 2
         DCD     IntDefaultHandler           ; ADC Sequence 3
         DCD     WatchdogIntHandler           ; Watchdog timer
-        DCD     IntDefaultHandler           ; Timer 0 subtimer A
+        DCD     PPSHighTimerInterrupt           ; Timer 0 subtimer A
         DCD     IntDefaultHandler           ; Timer 0 subtimer B
-        DCD     IntDefaultHandler           ; Timer 1 subtimer A
+        DCD     PPSLowTimerInterrupt           ; Timer 1 subtimer A
         DCD     IntDefaultHandler           ; Timer 1 subtimer B
         DCD     IntDefaultHandler           ; Timer 2 subtimer A
         DCD     IntDefaultHandler           ; Timer 2 subtimer B

@@ -12,13 +12,13 @@
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
         <TargetCommonOption>
-          <Device>TM4C123GH6PM</Device>
+          <Device>TM4C123GH6PGE</Device>
           <Vendor>Texas Instruments</Vendor>
           <Cpu>IRAM(0x20000000-0x20007FFF) IROM(0-0x3FFFF) CLOCK(16000000) CPUTYPE("Cortex-M4") FPU2</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile>"Startup\TI\TM4C123\startup_TM4C123.s" ("TM4C123 Startup Code")</StartupFile>
           <FlashDriverDll>UL2CM3(-O207 -S0 -C0 -FO7 -FD20000000 -FC800 -FN1 -FF0TM4C123_256 -FS00 -FL040000)</FlashDriverDll>
-          <DeviceId>6015</DeviceId>
+          <DeviceId>5931</DeviceId>
           <RegisterFile>TM4C123.h</RegisterFile>
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
@@ -26,10 +26,10 @@
           <Linker></Linker>
           <OHString></OHString>
           <InfinionOptionDll></InfinionOptionDll>
-          <SLE66CMisc>-DTM4C123GH6PM</SLE66CMisc>
+          <SLE66CMisc>-DTM4C123GH6PGE</SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
-          <SFDFile>SFD\TI\TM4C123\TM4C123GH6PM.SFR</SFDFile>
+          <SFDFile>SFD\TI\TM4C123\TM4C123GH6PGE.SFR</SFDFile>
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
           <IncludePath></IncludePath>
@@ -163,11 +163,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4097</DriverSelection>
+            <DriverSelection>4104</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\lmidk-agdi.dll</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
         </Utilities>
         <TargetArmAds>
@@ -349,7 +349,7 @@
             <uSurpInc>0</uSurpInc>
             <VariousControls>
               <MiscControls>--c99</MiscControls>
-              <Define>rvmdk PART_TM4C123GH6PM TARGET_IS_BLIZZARD_RB1</Define>
+              <Define>rvmdk PART_TM4C123GH6PGE TARGET_IS_BLIZZARD_RB1</Define>
               <Undefine></Undefine>
               <IncludePath>..;..\..\..\..;..\..\..\..\third_party</IncludePath>
             </VariousControls>
@@ -436,6 +436,11 @@
               <FileName>uartstdio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\utils\uartstdio.c</FilePath>
+            </File>
+            <File>
+              <FileName>adafruitUltimateGPS.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\adafruitUltimateGPS.c</FilePath>
             </File>
           </Files>
         </Group>

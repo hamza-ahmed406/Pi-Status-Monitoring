@@ -130,7 +130,7 @@ void stringncopy(char *dest, char *src, int Count)
 }
 
 
-int stringLength(char str[])
+int stringLength(char const *str)
 {
 	int counter;
 	for (counter=0; str[counter]!='\0'; counter++){}

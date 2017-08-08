@@ -8,6 +8,7 @@
 ".\rvmdk\scheduler.o"
 ".\rvmdk\ustdlib.o"
 ".\rvmdk\uartstdio.o"
+".\rvmdk\adafruitultimategps.o"
 "..\..\..\..\driverlib\rvmdk\driverlib.lib"
 "..\..\..\..\grlib\rvmdk\grlib.lib"
 --library_type=microlib --strict --scatter "uart_echo.sct"

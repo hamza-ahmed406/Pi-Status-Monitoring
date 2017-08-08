@@ -19,3 +19,6 @@
 .\rvmdk\main.o: ..\..\..\..\utils/ustdlib.h
 .\rvmdk\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
 .\rvmdk\main.o: ..\..\..\..\utils/uartstdio.h
+.\rvmdk\main.o: adafruitUltimateGPS.h
+.\rvmdk\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
+.\rvmdk\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
